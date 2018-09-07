@@ -524,8 +524,8 @@ class Plugin(object):
             self._mode = PluginMode.diagnostics
 
         # process the config (valid json) provided by the framework or the user
-        dict_conf = {"server_name": "13.59.141.92", "server_port": "4000", "server_protocol": "http"}
-        self._args.config = json.dumps(dict_conf)
+        # dict_conf = {"server_name": "13.59.141.92", "server_port": "4000", "server_protocol": "http"}
+        # self._args.config = json.dumps(dict_conf)
 
         if self._args.config is not None:
             try:

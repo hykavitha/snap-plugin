@@ -9,4 +9,4 @@
             process:
                 - plugin_name: "tag-py"
                   publish:
-                    - plugin_name: "file-py"
+                    - plugin_name: "random-stream-py"

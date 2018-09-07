@@ -20,7 +20,17 @@ import logging
 import random
 import time
 
+import sys
+import os
+
+dirpath = os.path.dirname(__file__)
+
+sys.path.insert(1, dirpath+ '../../')
+
 import snap_plugin.v1 as snap
+
+
+# import snap_plugin.v1 as snap
 
 LOG = logging.getLogger(__name__)
 
